@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Do calculations</title>
+    <link rel="icon" href="./cal.webp"
+    type="image/x-icon">
+
+</head>
+<body>
+    <h1>Calculator</h1>
+    <!-- calculater ui start frome here-->
+    <div class="container">
+        <form action="">
+            <div class="name">
+                <p>CASIO</p>
+            </div>
+            <div class="auther">
+                <p>VTR</p>
+            </div>
+            
+            
+
+            <input type="text" id="screen">
+            <br>
+
+            <input class="button number" type="button" value="7" onclick=" button_click(value)">
+            <input class="button number" type="button" value="8" onclick=" button_click(value)">
+            <input class="button number" type="button" value="9" onclick=" button_click(value)">
+            <input class="button oper" type="button" value="/" onclick=" button_click(value)">
+            <br>
+            <input class="button number" type="button" value="6" onclick=" button_click(value)">
+            <input class="button number" type="button" value="5" onclick=" button_click(value)">
+            <input class="button number" type="button" value="4" onclick=" button_click(value)">
+            <input class="button oper" type="button" value="*" onclick=" button_click(value)">
+            <br>
+            <input class="button number" type="button" value="1" onclick=" button_click(value)">
+            <input class="button number" type="button" value="2" onclick=" button_click(value)">
+            <input class="button number" type="button" value="3" onclick=" button_click(value)">
+            <input class="button oper" type="button" value="+" onclick=" button_click(value)">
+            <br>
+            <input class="button clear" type="button" value="CLR" onclick="clear_screen()">
+            <input class="button number" type="button" value="0" onclick=" button_click(value)">
+            <input class="button result" type="button" value="=" onclick="t_sum()">
+            <input class="button oper" type="button" value="-" onclick=" button_click(value)">
+
+        </form>
+
+    </div>
+
+
+
+    <script src="./calc.js"></script>
+    <footer>
+        VTR Creations
+    </footer>
+    
+    
+</body>
+</html>
